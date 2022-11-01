@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/hamburger.css">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="block-1">
+        <div class="logo">
+          <div class="logo-logo">
+            <a class="logo-span" href="#"
+              ><span class="logo-span">Drop</span></a
+            >
+          </div>
+          <div class="logo-link">
+            <a class="link-a" href="https://www.youtube.com/">Home</a>
+            <a
+              class="link-a"
+              href="https://classroom.google.com/c/NTQ1MjQxODU5MzEx"
+              >Services</a
+            >
+            <a class="link-a" href="https://browsersync.io/">Product</a>
+            <a class="link-a" href="https://translate.google.com/?hl=ru"
+              >Contact</a
+            >
+          </div>
+          <button class="hamburger hamburger--collapse" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+          <div class="logo-but"><a class="but-a" href="#">Sing in</a></div>
+        </div>
+        <div class="block-1-cont">
+          <div class="block-1__title">
+            <span class="title-span">Education for all</span>
+            <p class="block-1-p">
+              A bank is a financial institution that accepts deposits from the
+              public and creates credit. For all of your financial needs
+            </p>
+            <button class="block-1-but">Read More</button>
+          </div>
+          <div class="block-1-img">
+            <img class="block-1-img-wrap" src="img/image.webp" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="block-2__cont">
+        <div class="block-2">
+          <div class="block-2__p-p2">
+            <p class="block-2-p">
+              "Before Coursecity, I was working two minimum wage jobs. Now, &
+              new life!"I learned most of my programming skills and hrough
+              self-study and the material available.
+            </p>
+            <p class="block-2-p2">Stephanie Magion</p>
+            <div class="check">
+              <span style="opacity: 0.5" class="checkbox"></span
+              ><span style="opacity: 0.5" class="checkbox"></span
+              ><span class="checkbox"></span
+              ><span style="opacity: 0.5" class="checkbox"></span
+              ><span style="opacity: 0.5" class="checkbox"></span>
+            </div>
+          </div>
+        </div>
+        <div class="block-img">
+          <div class="block-img_container">
+            <div class="block__wrap-text">
+              <div class="img-wrap"><img src="img/img1.png" alt="" /></div>
+              <div class="img-text">
+                <span class="block-img__span"
+                  >Welcome to Eduin university, Constant self-improvement as an
+                  instructor.</span
+                >
+                <p class="block-img__p">
+                  Education City is initiative of our Qatar Foundation for
+                  Education, Science and Community Development. Education City
+                  initiative of our Qatar Foundation for Education, Science and
+                  Community Development. <br /><br />
+                  Education City is initiative of our Qatar Foundation for
+                  Education, Science and Community Development. Education City
+                  initiative of our Qatar Foundation for Education.
+                </p>
+                <button class="block-img__but">Get started</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="block-img reverce-grad">
+          <div class="block-img_container">
+            <div class="block__wrap-text reverce">
+              <div class="img-wrap"><img src="img/img2.png" alt="" /></div>
+              <div class="img-text">
+                <span class="block-img__span"
+                  >Welcome to Eduin university, Constant self-improvement as an
+                  instructor.</span
+                >
+                <p class="block-img__p">
+                  Education City is initiative of our Qatar Foundation for
+                  Education, Science and Community Development. Education City
+                  initiative of our Qatar Foundation for Education, Science and
+                  Community Development. <br />
+                  <br />
+                  Education City is initiative of our Qatar Foundation for
+                  Education, Science and Community Development. Education City
+                  initiative of our Qatar Foundation for Education.
+                </p>
+                <button class="block-img__but">Get started</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="block-icon__cont">
+          <div class="block-icon">
+            <div class="icon"><img src="img/icon1.svg" alt="" /></div>
+            <span class="block-icon__span">Global Student</span>
+            <p class="block-icon__p">
+              Education City is initiative of our Qatar Foundation for
+              Education, Science Community Development.
+            </p>
+          </div>
+          <div class="block-icon">
+            <div class="icon-2"><img src="img/icon2.svg" alt="" /></div>
+            <span class="block-icon__span">Global Student</span>
+            <p class="block-icon__p">
+              Education City is initiative of our Qatar Foundation for
+              Education, Science Community Development.
+            </p>
+          </div>
+          <div class="block-icon">
+            <div class="icon-3"><img src="img/icon3.svg" alt="" /></div>
+            <span class="block-icon__span">Global Student</span>
+            <p class="block-icon__p">
+              Education City is initiative of our Qatar Foundation for
+              Education, Science Community Development.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      // Look for .hamburger
+      var hamburger = document.querySelector(".hamburger");
+
+      var logo = document.querySelector(".logo-link");
+      // On click
+      hamburger.addEventListener("click", function () {
+        // Toggle class "is-active"
+        hamburger.classList.toggle("is-active");
+
+        logo.classList.toggle("is-active");
+        // Do something else, like open/close menu
+      });
+    </script>
+  </body>
+</html>
